@@ -1,0 +1,17 @@
+name = "Air DSl"
+license = "MIT"
+licenselink = "https://github.com/syui/hugo-theme-air/blob/master/LICENSE.md"
+description = "Hugo Air Theme for the web story: Deepspacean  Original: Casper theme from Ghost Foundation, Plus particles.js"
+homepage = "localhost:1313"
+tags = ["blog"]
+features = ["disqus", "google analytics","share"]
+min_version=0.14
+
+[author]
+  name = "Pradyumna"
+  homepage = "https://pradyumnac.github.io"
+
+[original]
+  name = "hugo-theme-casper"
+  homepage = "http://vjeantet.fr/"
+  repo = "https://github.com/vjeantet/hugo-theme-casper"
