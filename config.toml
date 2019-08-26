@@ -10,7 +10,7 @@ canonifyurls = true
   name = "Pradyuma"
 
 [params]
-  cover = "images/favicon.png"
+  cover = "images/logo.png"
   author = "Pradyumna"
   authorlocation = "India"
   authorwebsite = "https://pradyumna.github.io"

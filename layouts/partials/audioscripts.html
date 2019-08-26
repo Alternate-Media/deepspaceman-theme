@@ -1,0 +1,14 @@
+{{ if .Site.Params.Enabled_audio }}
+<audio id="introaudio">
+  {{$first_intro_audio := index (.Site.Params.url_introaudio_files) 0 }}
+  <!-- <source src="" type="audio/mpeg"> -->
+  <source src="{{$first_intro_audio}}" type="audio/mpeg">
+  Your browser does not support the audio element.
+</audio>
+<script type="text/javascript" src="{{.Site.BaseURL}}js/audio.js"></script>
+<script>
+var list_intro_audio_files = {{.Site.Params.url_introaudio_files}};
+var enabled_introloop = {{.Site.Params.enabled_introloop}};
+</script>
+{{end}}   
+
